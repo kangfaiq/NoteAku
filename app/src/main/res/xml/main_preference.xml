@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Online Sync">
+
+        <Preference
+            android:key="@string/key_online_backup"
+            android:title="Online Backup" />
+
+        <CheckBoxPreference
+            android:key="@string/key_sync_launch"
+            android:title="Sync on Launch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="General">
+
+        <com.jaredrummler.android.colorpicker.ColorPreferenceCompat
+            android:key="@string/key_default_color"
+            android:title="Default Color"
+            android:defaultValue="@color/color_default" />
+
+        <ListPreference
+            android:key="@string/key_list_font"
+            app:title="Default Font Size"
+            app:useSimpleSummaryProvider="true"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_values"
+            android:dialogTitle="Select one of the below options" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Backup">
+
+        <Preference
+            android:key="@string/key_backup"
+            android:title="Backup" />
+
+        <CheckBoxPreference
+            android:key="@string/key_auto_backup"
+            android:title="Auto Backup" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+
+        <Preference
+            android:selectable="false"
+            android:summary="NoteAku App by Fortinity" />
+
+        <Preference
+            android:summary="App Version"
+            android:title="1.0" />
+
+        <Preference
+            android:key="@string/key_feedback"
+            android:summary="Got any queries? We are happy to help!"
+            android:title="Send Feedback" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

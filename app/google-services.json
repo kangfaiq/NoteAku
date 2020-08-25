@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575201087061",
+    "firebase_url": "https://noteaku-d94cb.firebaseio.com",
+    "project_id": "noteaku-d94cb",
+    "storage_bucket": "noteaku-d94cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575201087061:android:6c9986e29d6d4259c24edc",
+        "android_client_info": {
+          "package_name": "net.fortinity.noteaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575201087061-vb2njfu5fbuativ69vtpt73ff7s8ilod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi5wJVNyOg0s5bjWXGS4CIaC3clWP70j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575201087061-vb2njfu5fbuativ69vtpt73ff7s8ilod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name='NoteAku'
+include ':app'
